@@ -1,4 +1,4 @@
-const countriesAPI='https://restcountries.com/v3.1/all';
+const countriesAPI='data.json';
 const dropdownTop=document.querySelector('.dropdown__top');
 const continents=document.querySelectorAll('.dropdown__bottom .dropdown__container');
 const input=document.getElementById('input-search');

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/68234326ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div class="app">
+
+        <nav>
+            <div class="nav__logo">
+                <h1>Where in the world?</h1>
+            </div>
+            <div class="nav__switch">
+                <i class="fa-regular fa-moon"></i>
+                <p id="dark-mode">Dark Mode</p>
+            </div>
+        </nav>
+
+        <div class="search">
+            <div class="container-input">
+                <div class="container-search">
+                    <button id="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" name="" id="input-search" placeholder="Search for a country...">
+                </div>
+            </div>
+            <div class="dropdown">
+                <div class="dropdown__top">
+                   <p>Filter by Region</p>
+                   <i class="fa-solid fa-angle-down"></i> 
+                </div>
+                <div class="dropdown__bottom">
+                   <div class="dropdown__container" id="Africa">Africa</div>
+                   <div class="dropdown__container" id="Americas">America</div>
+                   <div class="dropdown__container" id="Asia">Asia</div>
+                   <div class="dropdown__container" id="Europe">Europe</div>
+                   <div class="dropdown__container" id="Oceania">Oceania</div> 
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="countries">
+            
+        </div>
+
+        <div class="country-selected">
+
+        </div>
+
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+</html>
